@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "681277784814",
+    "project_id": "mathics-11c2e",
+    "storage_bucket": "mathics-11c2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681277784814:android:7cbb211d835307ebbae9ff",
+        "android_client_info": {
+          "package_name": "com.example.mathics"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCisdpd2XKRwlPQy9VXqtcABc0pRMo-xM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

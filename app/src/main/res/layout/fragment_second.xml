@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area Calculator"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Square -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Square"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/et_square_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Length"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/et_square_width"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Width"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btn_square_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_square_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Circle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Circle"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/et_circle_radius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Radius"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btn_circle_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_circle_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Triangle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Triangle"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/et_triangle_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Base"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/et_triangle_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height"
+            android:minHeight="48dp" />
+        <Button
+            android:id="@+id/btn_triangle_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_triangle_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

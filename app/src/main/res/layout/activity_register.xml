@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="@color/dark"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Here!"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:textColor="@color/beige"
+        />
+
+    <EditText
+        android:id="@+id/et_emailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/beige"
+        android:hint="Email"
+        android:minHeight="48dp"
+        android:textColorHint="@color/beige" />
+
+    <EditText
+        android:id="@+id/et_passwordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/beige"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="@color/beige" />
+
+    <EditText
+        android:id="@+id/et_confPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/beige"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="@color/beige" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already has an Account?"
+            android:textSize="12sp"
+            android:textColor="@color/beige"/>
+        <TextView
+            android:id="@+id/tv_loginLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Login Here!"
+            android:textSize="12sp"
+            android:textColor="@color/teal"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/teal"
+        android:textColor="@color/dark"
+        />
+
+</LinearLayout>

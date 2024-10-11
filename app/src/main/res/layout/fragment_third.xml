@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volume Calculator"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Balok -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuboid"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/et_balok_panjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Length"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/et_balok_lebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Width"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/et_balok_tinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btn_balok_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_balok_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Piramida -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pyramid"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/et_piramida_sisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Side"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/et_piramida_tinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btn_piramida_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_piramida_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Tabung -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cylinder"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/et_tabung_jarijari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Radius"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/et_tabung_tinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btn_tabung_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_tabung_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
